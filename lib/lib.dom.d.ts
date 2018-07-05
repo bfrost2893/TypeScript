@@ -10809,6 +10809,14 @@ declare var PerformanceMeasure: {
     new(): PerformanceMeasure;
 };
 
+interface PerformancePaintTiming extends PerformanceEntry {
+}
+
+declare var PerformancePaintTiming: {
+    prototype: PerformancePaintTiming;
+    new(): PerformancePaintTiming;
+};
+
 interface PerformanceNavigation {
     readonly redirectCount: number;
     readonly type: number;
